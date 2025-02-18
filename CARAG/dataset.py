@@ -190,7 +190,6 @@ def process_qa_pairs(qa_pairs):
     return results
 
 qa_pairs = [
-    {"question": "What is photosynthesis?", "answer": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll."},
 ]
 
 output = process_qa_pairs(qa_pairs)
